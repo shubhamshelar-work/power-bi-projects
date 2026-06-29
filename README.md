@@ -1,6 +1,6 @@
-# 📊 Global Tech Sales Performance Dashboard
+# 📊 Global Tech Sales Performance Dashboard ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-## 🎯 Project Overview
+## 🎯 Project Overview 
 This project features a comprehensive Power BI dashboard designed to track and analyze sales performance across multiple regions and product categories from 2024 to 2026. The goal of this analysis is to identify top-performing products, understand category distribution, and visualize sales trends over time.
 
 ## 🛠️ Data Preparation & Cleaning
