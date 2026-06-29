@@ -15,7 +15,7 @@ The raw data was sourced from two primary datasets:
 The project utilizes a standard Star Schema data model. 
 * A **One-to-Many (1:*) relationship** was established between the `customers` dimension table and the `orders` fact table using the `customer_id` key.
 
-![Data Model](Screenshot 2026-06-29 103945.png)
+![Sales Dashboard Overview](Screenshot%202026-06-29%20103945.png)
 
 ## 📸 Dashboard Preview
 ![Sales Dashboard Overview](Screenshot%202026-06-29%20103945.png)
