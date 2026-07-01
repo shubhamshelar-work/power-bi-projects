@@ -1,6 +1,6 @@
 # 📱 PhonePe Payment Insights Dashboard
 
-![PhonePe Dashboard](images/dashboard-image.jpg)
+![PhonePe Dashboard](images/dashboard-image.png)
 
 ## 📊 Overview
 A professional Power BI dashboard analyzing 300K+ transaction records to provide actionable insights into user demographics, payment behaviors, and service usage.
