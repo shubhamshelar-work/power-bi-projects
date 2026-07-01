@@ -57,5 +57,5 @@ Design Theme: Leveraged a premium dark-purple aesthetic to match PhonePe's brand
 Global Slicers: The dashboard is fully interactive, allowing users to filter by Month and Payment Status.
 
 ## Custom Tooltips:
-### Service Insights: ### Hovering over the Service Transaction Value Analysis bar chart reveals specific underlying service categories.
-### Demographic Insights: ### Hovering over the Weekday v/s Weekend Usage donut chart displays the exact breakdown by Age Segment (GenZ, Millennials, GenX, Boomers).
+Service Insights: Hovering over the Service Transaction Value Analysis bar chart reveals specific underlying service categories.
+Demographic Insights: Hovering over the Weekday v/s Weekend Usage donut chart displays the exact breakdown by Age Segment (GenZ, Millennials, GenX, Boomers).
