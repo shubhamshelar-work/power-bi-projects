@@ -1,4 +1,4 @@
-# 📊 Data Analytics Portfolio 
+# 📊 Data Analytics Portfolio ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 Welcome to my central repository for data analytics projects. I'm Shubham, and this workspace showcases my journey in extracting actionable insights from raw data. 
 
