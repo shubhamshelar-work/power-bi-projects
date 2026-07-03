@@ -1,6 +1,5 @@
-![Starbucks Global & Nutritional Dashboard](images/starbucks-dashboard.png)
-
 # Starbucks Global Operations & Nutritional Analysis ☕📊
+![Starbucks Global & Nutritional Dashboard](images/starbucks-dashboard.png)
 
 ## 📌 Project Overview
 This Power BI project provides a comprehensive analysis of Starbucks' global store footprint alongside a detailed nutritional breakdown of its beverage offerings. 
