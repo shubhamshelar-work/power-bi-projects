@@ -10,6 +10,7 @@ A dedicated Measures table was created to keep every DAX measure in one place. T
 ### 31 KPI Measures
 31 KPI's are created out of which 5-10 KPI's are used , we can design all dahsboard accordingly and use the KPI's we want.
 
+```dax
 1. Total Songs = COUNTROWS('Top-50-World')
 2. Distinct Songs = DISTINCTCOUNT('Top-50-World'[song])
 3. Distinct Artists = DISTINCTCOUNT('Top-50-World'[artist])
@@ -41,6 +42,7 @@ A dedicated Measures table was created to keep every DAX measure in one place. T
 29. Newest Release Year = MAXX('Top-50-World',YEAR('Top-50-World'[release_date]))
 30. Oldest Release Year = MINX('Top-50-World',YEAR('Top-50-World'[release_date]))
 31. Song Age Years = AVERAGEX('Top-50-World',YEAR(TODAY())-YEAR('Top-50-World'[release_date]))
+```
 
 ### Insights
 The dashboard helps analyze artist performance, popularity, album types, explicit content, duration, rankings, and release trends using interactive Power BI visuals.
