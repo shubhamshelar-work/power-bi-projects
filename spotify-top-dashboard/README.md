@@ -8,6 +8,7 @@ This project analyzes the Spotify Top-50 dataset using Power BI. It covers data 
 A dedicated Measures table was created to keep every DAX measure in one place. This keeps the model organized, improves maintainability, and follows Power BI best practices.
 
 ### 31 KPI Measures
+31 KPI's are created out of which 5-10 KPI's are used , we can design all dahsboard accordingly and use the KPI's we want.
 
 1. Total Songs = COUNTROWS('Top-50-World')
 2. Distinct Songs = DISTINCTCOUNT('Top-50-World'[song])
@@ -41,5 +42,5 @@ A dedicated Measures table was created to keep every DAX measure in one place. T
 30. Oldest Release Year = MINX('Top-50-World',YEAR('Top-50-World'[release_date]))
 31. Song Age Years = AVERAGEX('Top-50-World',YEAR(TODAY())-YEAR('Top-50-World'[release_date]))
 
-Insights
+### Insights
 The dashboard helps analyze artist performance, popularity, album types, explicit content, duration, rankings, and release trends using interactive Power BI visuals.
