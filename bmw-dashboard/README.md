@@ -1,12 +1,12 @@
-# 🚗 BMW Sales Analytics Dashboard
+# BMW Sales Analytics Dashboard
 
-## 📊 Overview
+## Overview
 
 A professional Power BI dashboard analyzing BMW sales data to provide actionable insights into revenue performance, vehicle strategy, regional sales, and customer segmentation.
 
 ---
 
-## 🖼️ Dashboard Preview
+## Dashboard Preview
 
 ### 1. Overview
 
@@ -63,7 +63,7 @@ This dashboard provides regional and customer-focused insights, including:
 
 ---
 
-## 🛠️ 1. Data Preparation & Transformation
+## 1. Data Preparation & Transformation
 
 - **Data Source:** BMW sales dataset containing vehicle, sales, pricing, fuel type, color, region, and transmission information.
 - **Data Cleaning:** Cleaned and standardized the raw dataset using Power Query.
@@ -72,7 +72,7 @@ This dashboard provides regional and customer-focused insights, including:
 
 ---
 
-## 📅 2. Data Modeling
+## 2. Data Modeling
 
 Created a structured Power BI data model to enable analysis across:
 
