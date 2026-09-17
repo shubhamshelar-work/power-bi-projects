@@ -6,8 +6,6 @@ A professional Power BI dashboard analyzing BMW sales data to provide actionable
 
 ---
 
-## Dashboard Preview
-
 ### 1. Overview
 
 ![BMW Sales Analytics Dashboard - Overview](images/1.overview.png)
