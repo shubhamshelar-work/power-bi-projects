@@ -90,19 +90,95 @@ A dedicated **Measures Table** was created to keep DAX calculations organized.
 
 ---
 
-## 📈 3. KPIs & DAX Measures
-
-Created key DAX measures for revenue, units, pricing, and regional analysis.
+### 🔹 Core KPIs
 
 ```DAX
 Total Revenue =
 SUM('BMW Sales'[Price_USD])
 
-Total Units =
-SUM('BMW Sales'[Unit_Sold])
+Total Units Sold =
+SUM('BMW Sales'[Units_Sold])
 
 Avg Selling Price =
 AVERAGE('BMW Sales'[Price_USD])
 
 Avg Engine Size =
 AVERAGE('BMW Sales'[Engine_Size_L])
+
+Asia Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "Asia"
+)
+
+Europe Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "Europe"
+)
+
+North America Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "North America"
+)
+
+South America Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "South America"
+)
+
+NA Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "NA"
+)
+
+Asia Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "Asia"
+)
+
+Europe Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "Europe"
+)
+
+North America Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "North America"
+)
+
+South America Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "South America"
+)
+
+NA Revenue =
+CALCULATE(
+    [Total Revenue],
+    'BMW Sales'[Region] = "NA"
+)
+
+High Class Sales =
+CALCULATE(
+    [Total Units Sold],
+    'BMW Sales'[Vehicle_Class] = "High"
+)
+
+Medium Class Sales =
+CALCULATE(
+    [Total Units Sold],
+    'BMW Sales'[Vehicle_Class] = "Medium"
+)
+
+Low Class Sales =
+CALCULATE(
+    [Total Units Sold],
+    'BMW Sales'[Vehicle_Class] = "Low"
+)
